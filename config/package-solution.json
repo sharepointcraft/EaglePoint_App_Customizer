@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "SharePoint Page Customizer",
+    "id": "bf13a352-8a35-4b2c-b70c-bf170f8f9f02",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sharepoint-page-customizer description"
+      },
+      "longDescription": {
+        "default": "sharepoint-page-customizer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sharepoint-page-customizer Feature",
+        "description": "The feature that activates elements of the sharepoint-page-customizer solution.",
+        "id": "a825a351-65fe-402a-9d3f-bbc3e335dcdd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sharepoint-page-customizer.sppkg"
+  }
+}
